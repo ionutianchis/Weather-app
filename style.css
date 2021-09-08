@@ -1,0 +1,47 @@
+@font-face {
+    src: url('fonts/urbanist.ttf');
+    font-family: urbanist;
+}
+
+
+body {
+    font-family: urbanist;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: url('./images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+#weatherInfoDiv{
+    width: 40vw;
+    background-color: rgba(20, 20, 20, 0.6);
+    color: white;
+    padding: 40px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#cityInput {
+    width: 50%;
+}
+
+#submitSearch {
+    margin-left: 10px;
+    background-image: url('./images/search.png');
+    background-size: cover;
+    background-color: transparent;
+    height: 28px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}

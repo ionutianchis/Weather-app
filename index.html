@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div id='weatherInfoDiv'>
+        <div id='startText'>
+            <h1>Try typing a city below ! </h1>
+        </div>
+        <div id='weatherInfo'>
+            <h1 id='cityName'></h1>
+            <p id='conditions'></p>
+            <p id='temp'></p>
+            <p id='feelsTemp'></p>
+            <p id='humidity'></p>
+            <p id='wind'></p>
+            <div id='sun'>
+                <p id='sunriseSunset'></p>
+            </div>
+        </div>
+        <form id='form'>
+            <input type='text' id='cityInput' placeholder='City...'>
+            <button type='button' id='submitSearch'></button>
+        </form>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
